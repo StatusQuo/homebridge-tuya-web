@@ -1,6 +1,7 @@
 const SwitchAccessory = require('./lib/switch_accessory');
 const OutletAccessory = require('./lib/outlet_accessory');
 const DimmerAccessory = require('./lib/dimmer_accessory');
+const CoverAccessory = require('./lib/cover_accessory');
 const TuyaWebApi = require('./lib/tuyawebapi');
 
 var Accessory, Service, Characteristic, UUIDGen;
